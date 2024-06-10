@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2eb3a2-fc4e-4a0c-a26e-6fdb01656710" name="Changes" comment="Organizing the Code and the Files">
-      <change afterPath="$PROJECT_DIR$/flatmates_bill/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4b2eb3a2-fc4e-4a0c-a26e-6fdb01656710" name="Changes" comment="Writing the Empty Classes">
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bill.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/April 2021.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/flatmates_bill/files/April 2021.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/april 2024.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/flatmates_bill/files/april 2024.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/design.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flatmates_bill/files/design.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/house.png" beforeDir="false" afterPath="$PROJECT_DIR$/flatmates_bill/files/house.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flat.py" beforeDir="false" afterPath="$PROJECT_DIR$/flatmates_bill/flat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/march 2021.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports.py" beforeDir="false" afterPath="$PROJECT_DIR$/flatmates_bill/reports.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,23 +34,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.reports.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Python projects/Flatmate_Bill_Web_App&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.reports.executor": "Run",
+    "Python.scratch.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Python projects/Flatmate_Bill_Web_App",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Python projects\Flatmate_Bill_Web_App" />
@@ -67,7 +61,29 @@
       <recent name="D:\Python projects\Flatmate_Bill_Web_App\files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Flatmate_Bill_Web_App" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Flatmate_Bill_Web_App" />
       <option name="ENV_FILES" value="" />
@@ -136,6 +152,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.reports" />
         <item itemvalue="Python.scratch" />
@@ -214,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717862144209</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Writing the Empty Classes">
+      <option name="closed" value="true" />
+      <created>1718043356363</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718043356364</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,13 +254,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Writing the Empty Classes" />
     <MESSAGE value="Implementing the &quot;pays&quot; Method" />
     <MESSAGE value="Implementing the &quot;generate&quot; Method" />
     <MESSAGE value="Polish the Code and Adding an Image to the PDF" />
     <MESSAGE value="Changing the Text Font and automatically View the PDF file" />
     <MESSAGE value="Implementing the Input Functions" />
     <MESSAGE value="Organizing the Code and the Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organizing the Code and the Files" />
+    <MESSAGE value="Writing the Empty Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Writing the Empty Classes" />
   </component>
 </project>
