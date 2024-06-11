@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2eb3a2-fc4e-4a0c-a26e-6fdb01656710" name="Changes" comment="Completing the Result Page and default data for the Input widgets">
-      <change afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
+    <list default="true" id="4b2eb3a2-fc4e-4a0c-a26e-6fdb01656710" name="Changes" comment="Creating and Linking the Css File">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/bill_form_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bill_form_page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -271,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718133567161</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Creating and Linking the Css File">
+      <option name="closed" value="true" />
+      <created>1718135431522</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718135431522</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,6 +305,7 @@
     <MESSAGE value="Implementing the Form Submit Button" />
     <MESSAGE value="Procesing the User Data" />
     <MESSAGE value="Completing the Result Page and default data for the Input widgets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing the Result Page and default data for the Input widgets" />
+    <MESSAGE value="Creating and Linking the Css File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating and Linking the Css File" />
   </component>
 </project>
